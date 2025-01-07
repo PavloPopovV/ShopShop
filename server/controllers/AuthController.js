@@ -33,10 +33,10 @@ class AuthController {
       // пролвіряємо чи користувач з таким іменем вже існує
       if (candidate)
         return res.status(409).json({ message: messages.conflict_409 });
-      // const userR = new RoleModel()
-      // const adminRole = new RoleModel({value:"ADMIN"})
-      // await userR.save()
-      // await adminRole.save()
+      const userR = new RoleModel()
+      const adminRole = new RoleModel({value:"ADMIN"})
+      await userR.save()
+      await adminRole.save()
 
       // получвємо роль юзера з бази даних
       const userRole = await RoleModel.findOne({ value: "ADMIN" });
