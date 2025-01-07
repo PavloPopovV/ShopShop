@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads'))); // налаштовує статичний сервер для обслуговування файлів у папці uploads.
 
-
+console.log(__dirname)
 
 // func яка буде запускати сервер (опервції з базами данниї завжди асинхронні async/await)
 const start = async () => {
