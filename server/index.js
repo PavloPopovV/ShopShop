@@ -10,7 +10,7 @@ const app = express(); // створення сервера
 
 app.use(express.json()); // парсимо json
 
-app.use(cors({ origin: 'http://localhost:5174' }))
+app.use(cors())
 
 app.use("/api", router); // для слідкування за роутами в додатку
 
