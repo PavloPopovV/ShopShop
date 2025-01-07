@@ -1,0 +1,45 @@
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 58px;
+}
+
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-self: start;
+    border: 1px solid var(--grey);
+    padding: 5px;
+
+    span {
+        display: block;
+
+        &:first-child {
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: bold;
+        }
+
+        &:last-child {
+            color: var(--grey);
+            margin-bottom: 5px;
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        background-color: #fff;
+        border-bottom: 1px solid var(--grey);
+        border-left: 1px solid var(--grey);
+        border-radius: 0 0 0 10px;
+    }
+}

@@ -1,0 +1,13 @@
+.list{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 15px 0;
+    border-top: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
+    margin-bottom: 70px;
+}
+
+.btn{
+    text-transform: uppercase;
+}

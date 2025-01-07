@@ -1,0 +1,50 @@
+.wrapper {
+    max-width: 500px;
+    width: 100%;
+}
+
+.total{
+    border: 1px solid var(--grey);
+    padding: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    span{
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 10px;
+
+}
+
+.input {
+    border-bottom: 1px solid var(--grey);
+    width: 100%;
+    padding: 0 0 5px 10px;
+}
+
+
+.group {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.message {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    color: var(--err);
+}
+
+.button {
+    background-color: var(--grey);
+    padding: 10px 0;
+    cursor: pointer;
+}
+

@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.img_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.big {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.small_img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small {
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.info {
+    width: 800px;
+}
+
+.name {
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.price {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 30px;
+}
+
+.list {
+    max-width: 330px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

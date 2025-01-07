@@ -1,0 +1,11 @@
+.wrapper{
+    margin-bottom: 100px;
+    span{
+        display: block;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

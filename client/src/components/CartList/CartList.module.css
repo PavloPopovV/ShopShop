@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid var(--grey);
+    padding: 10px;
+
+    a{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+    }
+
+    div {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    span {
+        display: block;
+
+        &:last-child {
+            color: var(--grey);
+        }
+    }
+}

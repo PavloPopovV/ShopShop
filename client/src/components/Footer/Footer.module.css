@@ -1,0 +1,17 @@
+.footer{
+    padding: 20px 0 20px;
+    margin-bottom: 0;
+    border-top: 1px solid var(--grey);
+}   
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.developer {
+    display: block;
+    text-align: center;
+}

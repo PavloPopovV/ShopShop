@@ -1,0 +1,32 @@
+.wrapper {
+    z-index: 100;
+    position: absolute;
+    background-color: var(--white);
+    padding: 20px;
+    border: 1px solid var(--grey);
+    height: 400px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    span {
+        display: block;
+    }
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.box, 
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.category{
+    color: var(--grey);
+}
